@@ -8,36 +8,71 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f5f2; /* Fundo levemente quente/marfim */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
 }
 
-div {
-    margin: 50px;
-    padding: 20px;
+/* Container do título principal */
+div:first-of-type {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 h1 {
-    font-size: 2em;
-
+    font-size: 2.2em;
+    line-height: 1.4;
+    color: #4a1525; /* Vinho/Púrpura sagrado */
 }
 
-p {
-    font-family: serif;
+div:first-of-type p {
+    color: #8c7355; /* Ouro velho */
+    font-weight: bold;
+    margin-top: 5px;
 }
 
-.card {
-    overflow: visible;
-    position: relative;
+/* Container dos Botões */
+.botoes-container {
     display: flex;
-    background: red;
-    align-items: center;
-    width: 30px;
-    flex-direction: column;
+    gap: 10px;
     justify-content: center;
-    height: 80px;
-    margin-top: 10vh;
-    border-radius: 20px;
-    justify-content: space-between;
-    padding-bottom: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
 
+.theme-btn {
+    background-color: #ffffff;
+    border: 1px solid #d9d2c9;
+    color: #4a1525;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.theme-btn:hover {
+    background-color: #4a1525;
+    color: #ffffff;
+    border-color: #4a1525;
+}
+
+/* O Card do Versículo */
+.card {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(74, 21, 37, 0.06); /* Sombra sutil com tom vinho */
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    border-top: 4px solid #4a1525; /* Linha de destaque litúrgica */
+}
+
+#referencia-versiculo {
+    font-size: 1.2em;
 }
