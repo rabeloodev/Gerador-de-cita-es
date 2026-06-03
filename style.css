@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+
+}
+
+p {
+    font-family: serif;
+}
+
+.card {
+    overflow: visible;
+    position: relative;
+    display: flex;
+    background: red;
+    align-items: center;
+    width: 30px;
+    flex-direction: column;
+    justify-content: center;
+    height: 80px;
+    margin-top: 10vh;
+    border-radius: 20px;
+
+    justify-content: space-between;
+    padding-bottom: 20px;
+
+}
