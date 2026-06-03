@@ -177,7 +177,7 @@ export function exibirVersiculoPorTema(temaSelecionado) {
 
   elementoTexto.innerText = `"${versiculo.text}"`;
   elementoReferencia.innerText = versiculo.reference;
-  elementoReflexao.innerText = versiculo.reflection || "Que a palavra de Deus conforte o seu coração hoje.";
+  elementoReflexao.innerText = versiculo.reflection || "";
 }
 
 // 3. Bloco de captura do clique (No final de tudo)

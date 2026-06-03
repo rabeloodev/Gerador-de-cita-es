@@ -28,6 +28,14 @@ h1 {
     color: #4a1525; /* Vinho/Púrpura sagrado */
 }
 
+#referencia-versiculo {
+    line-height: 1.5;
+}
+
+#texto-versiculo {
+    line-height: 1.4;
+}
+
 div:first-of-type p {
     color: #8c7355; /* Ouro velho */
     font-weight: bold;
@@ -66,7 +74,7 @@ div:first-of-type p {
     background: #ffffff;
     padding: 35px;
     border-radius: 12px;
-    box-shadow: 0 6px 20px rgba(74, 21, 37, 0.06); /* Sombra sutil com tom vinho */
+    box-shadow: 0 6px 20px rgba(74, 21, 37, 0.185); /* Sombra sutil com tom vinho */
     max-width: 500px;
     width: 100%;
     text-align: center;
